@@ -4,7 +4,7 @@ author: "Dewi Amaliah"
 format:
   revealjs:
     title-slide-attributes:
-      data-background-image: _assets/images/bg.png
+      data-background-image: images/bg.png
       data-background-size: cover  
     transition: none
     smaller: true
@@ -13,7 +13,7 @@ format:
     chalkboard: 
       buttons: false
     preview-links: auto
-    logo: _assets/images/siena_logo.png
+    logo: images/siena_logo.png
     hide-from-titleSlide: "all"
     theme: _assets/styles/slide-styles.scss
     css: _assets/styles/additional-styles.css
