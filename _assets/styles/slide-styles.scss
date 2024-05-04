@@ -1,0 +1,32 @@
+/*-- scss:defaults --*/
+
+section.slide h2 {
+  color: white;
+  background-color: #244367;
+  width: 200vw;
+  position: relative;
+  left: -20vw;
+  padding-left: 20vw;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#title-slide {
+  text-align: right;
+
+  .quarto-title-authors {
+    justify-content: right;
+
+    .quarto-title-author { // optional, test it for yourself
+      padding-left: 0;
+      padding-right: 0;
+      width: 100%;
+    }
+  }
+}
+
+$presentation-title-slide-text-align: right;
+
+
+
+
