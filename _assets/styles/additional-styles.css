@@ -1,18 +1,18 @@
 .reveal .slide-logo {
-  height: 100px !important;
-  width: 100px !important;
+  height: 200px !important;
+  width: 200px !important;
   max-width: unset !important;
   max-height: unset !important;
 }
 
 .title {
-  font-size: 60px !important;
+  font-size: 40px !important;
   color: white !important;
   margin-right: 0px !important;
 }
 
 .quarto-title-author-name {
-  font-size: 40px;
+  font-size: 30px;
   color: white !important;
   text-align: right;
   margin-right: 0px !important;
