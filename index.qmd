@@ -15,8 +15,8 @@ format:
     preview-links: auto
     logo: images/siena_logo.png
     hide-from-titleSlide: "all"
-    theme: _assets/styles/slide-styles.scss
-    css: _assets/styles/additional-styles.css
+    theme: styles/slide-styles.scss
+    css: styles/additional-styles.css
 editor: visual
 ---
 
