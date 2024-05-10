@@ -22,9 +22,71 @@ editor: visual
 
 ## Agenda
 
+-   Brief introduction to R Shiny
+-   Importance of interactive tools in medical research
+-   Examples of applications in biostatistics and healthcare
+-   Case study on "Heart Failure Prediction"
+-   Quiz
+
+## Let's Put This into Context
+
+![](images/context.png)
+
+## What is Web Application?
+
+::: callout-note
+## Definition
+
+-   A web application (or web app) is an application that can be accessed through a web browser.
+-   Needs skills on javascript, html, or css.
+:::
+
+::: fragment
+::: callout-note
+## Goals
+
+-   Connect people and data;
+-   Make systems playful;
+-   Personalise the view;
+-   Reduce cognitive load.
+
+[^1]
+:::
+:::
+
+[^1]: [Source: Communicating data with interactive apps, Lecture Notes, Monash University](https://cwd.numbat.space/lectures/lecture-03.html#/etc5523-title)
+
 ## What is R Shiny?
 
+::: columns
+::: {.column width="20%"}
+![](images/shiny.png){width="219"}
+:::
+:::
+
+::: columns
+::: {.column width="80%"}
+-   Shiny ([Chang, et.al., 2023](https://CRAN.R-project.org/package=shiny)) is an R packages that support web app development using R.
+
+-   No HTML/css/javascript required.
+
+-   Enable data analysis in an interactive manners.
+
+-   As it is developed using R, it can be supported by other R packages.
+
+-   Can be hosted and accessed online.
+:::
+:::
+
 ## Why it is important?
+
+### Especially in Biostatistics & Healthcare
+
+-   
+
+## Shiny App in the Wild
+
+## Shiny's element
 
 ## Hands On
 
