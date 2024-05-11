@@ -133,8 +133,172 @@ editor: visual
 
 ## Shiny's element
 
+::: panel-tabset
+## Overview
+
+```{r, eval=FALSE, echo = TRUE}
+# load the shiny package
+library(shiny)
+
+# define user interface object
+ui <- fluidPage()
+
+# define server function
+server <- function(input, output) { }
+
+# call to shinyApp() which returns a Shiny app object from an
+# explicit UI/server pair
+shinyApp(ui = ui, server = server)
+```
+
+## Client & Server Communication
+
+![Source: Communicating data with interactive web apps, Lecture Notes, Monah University](images/serverclient.png)
+:::
+
+## Shiny's UI
+
+::: columns
+::: {.column width="60%"}
+**Input element**
+
+-   Interact with user by modifying the input values. Can be text, number, date, file, etc.
+
+-   Input has an id to communicate with server
+
+**Output element**
+
+-   Display operation done in server
+
+-   Can be a plot, table, text
+
+**Layout**
+
+-   Organize the layout of the app (panels or tabs)
+
+-   Using themes
+
+-   Explanatory text
+:::
+
+::: {.column width="40%"}
+```{r , eval=FALSE, echo = TRUE}
+# load the shiny package
+library(shiny)
+
+# define the user interface object with the appearance of the app
+# layout is fluidPage
+ui <- fluidPage(
+  title("Create your Histogram"),
+  # input type
+  numericInput(inputId = "n", label = "Sample size", value = 25),
+  # output type
+  plotOutput(outputId = "hist")
+)
+
+```
+:::
+:::
+
+## Input Options
+
+![Example of input type in Shiny](images/inputs.png)
+
+## Output Options
+
+![List of output options in Shiny](images/outputs.png)
+
+## Layout
+
+::: panel-tabset
+## Basic layout
+
+![Layout options on Shiny](images/basic_layout.png)
+
+## Tab Panel
+
+![Tabset options on Shiny](images/tabpanel.png)
+
+## Themes
+
+![Themes option on Shiny. See also: https://rstudio.github.io/shinythemes/](images/themes.png){width="375"}
+
+```{r, eval = FALSE, echo = TRUE}
+library(shinythemes)
+
+shinyApp(
+  ui = fluidPage(theme = shinytheme("united"),
+    ...
+  ),
+  server = function(input, output) { }
+)
+```
+:::
+
+## Shiny's Server
+
+::: columns
+::: {.column width="60%"}
+**Operation/ Calculation**
+
+-   Where all of the operation or calculation done
+-   Takes all of the user inputs using the input id -\> reactive element
+
+**Output element**
+
+-   Render the output to be displayed on output
+
+-   Pair with the output id on the UI side
+:::
+
+::: {.column width="40%"}
+```{r , eval=FALSE, echo = TRUE}
+
+# create the histogram output
+server <- function(input, output) {
+  output$hist <- renderPlot({
+    hist(rnorm(input$n))
+  })
+}
+
+```
+:::
+:::
+
+## Reactivity
+
+-   `reactiveValues` creates your own reactive values
+
+-   `isolate` prevents reactions
+
+-   `reactive` caches its value to reduce computation and notifies its dependencies when it has been invalidated
+
+-   `observe` runs code when any reactive elements within it changes
+
+-   `observeEvent` runs code when the first argument changes
+
+## Deploy your App
+
+-   Share your codes (app.R) and running it on R studio
+
+-   Host online for free at shinyapps.io
+
+-   Use [`shinylive`](https://medium.com/@rami.krispin/deploy-shiny-app-on-github-pages-b4cbd433bdc#:~:text=Shinylive%20is%20a%20serverless%20version%20of%20Shiny%2C%20which%20enables%20running,recommend%20watching%20this%20talk!).)
+
+-   Personal server
+
 ## Hands On
 
 ## Quiz
 
 ## Moving Forward
+
+-   Learn more
+
+-   Can also be developed using Python
+
+-   Cheatsheet for Shiny
+
+-   Debugging Shiny
+
+-   More examples
