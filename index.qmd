@@ -82,9 +82,54 @@ editor: visual
 
 ### Especially in Biostatistics & Healthcare
 
--   
+::: callout-note
+## Interactive data analysis and visualization enable:
 
-## Shiny App in the Wild
+-   Monitoring and analysis -\> quality improvement and performance monitoring
+-   Decision support systems
+-   Research and collaboration
+-   Patient engagement and education
+:::
+
+## Shiny App in the Wild (1)
+
+-   [Vaccine Queue Simulator](https://cbdrh.shinyapps.io/queueSim/) by Mark Hanly, Oisín Fitzgerald, and Tim Churches
+
+-   Decision support system, i.e., planning for healthcare capacity
+
+    ![](images/vaccine_simulator.png)
+
+## Shiny App in the Wild (2)
+
+-   [Healthdown](https://hoga.shinyapps.io/healthdown/) by Peter Gandenberger and Andreas Hofheinz
+
+-   Monitoring and analysis, i.e., comparing health metrics geographically
+
+    ![](images/healthdown.png)
+
+## Shiny App in the Wild (3)
+
+-   [ReviewR](https://thewileylab.shinyapps.io/ReviewR/) by Laura Wiley, Luke Rasmussen, and David Mayer
+
+-   Research and collaboration, i.e., connect to Electronic Health Record (EHR) data and doing data analysis
+
+    ![](images/reviewR.png)
+
+## Shiny App in the Wild (4)
+
+-   [Genome browser](https://gallery.shinyapps.io/genome_browser/) by ICGC Data Portal
+
+-   Research and collaboration, i.e., genome visualization
+
+    ![](images/genome.png)
+
+## Shiny App in the Wild (5)
+
+-   [Nutrition calculator](https://yihanw.shinyapps.io/Recipe_Nutrition/) by Yihan Wu
+
+-   Engagement and education, i.e., calculate nutrition for recipes
+
+    ![](images/nutrition.png)
 
 ## Shiny's element
 
