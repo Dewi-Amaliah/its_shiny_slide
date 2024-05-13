@@ -306,7 +306,7 @@ Download [here](https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+le
 ::: callout-note
 ## Tutorial
 
-You can access the tutorial here.
+You can access the tutorial [here](https://github.com/Dewi-Amaliah/its_shiny_slide/blob/main/tutorial.pdf).
 :::
 
 ## Quiz
