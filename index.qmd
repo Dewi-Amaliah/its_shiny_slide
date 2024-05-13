@@ -283,22 +283,46 @@ server <- function(input, output) {
 
 -   Host online for free at shinyapps.io
 
--   Use [`shinylive`](https://medium.com/@rami.krispin/deploy-shiny-app-on-github-pages-b4cbd433bdc#:~:text=Shinylive%20is%20a%20serverless%20version%20of%20Shiny%2C%20which%20enables%20running,recommend%20watching%20this%20talk!).)
+-   Use [`shinylive`](https://medium.com/@rami.krispin/deploy-shiny-app-on-github-pages-b4cbd433bdc#:~:text=Shinylive%20is%20a%20serverless%20version%20of%20Shiny%2C%20which%20enables%20running,recommend%20watching%20this%20talk!)
 
 -   Personal server
 
 ## Hands On
 
+::: callout-note
+## Goal
+
+Create a Shiny app to do data exploration (visualization) and classification (several classification algorithm)
+:::
+
+::: callout-note
+## Data
+
+In this example, we will use data on obesity level (UCI Machine Learning Repository, 2019)
+
+Download [here](https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition)
+:::
+
+::: callout-note
+## Tutorial
+
+You can access the tutorial here.
+:::
+
 ## Quiz
+
+![](https://i.gifer.com/877c.gif){fig-align="center"}
+
+1st and 2nd winner will receive IDR 100k e-wallet credit from Siena
 
 ## Moving Forward
 
--   Learn more
+-   Learn more ([Mastering shiny (e-book)](https://mastering-shiny.org/), [tutorial](https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/index.html))
 
 -   Can also be developed using Python
 
--   Cheatsheet for Shiny
+-   [Cheatsheet for Shiny](https://shiny.posit.co/r/articles/start/cheatsheet/)
 
--   Debugging Shiny
+-   [Debugging Shiny](https://shiny.posit.co/r/articles/improve/debugging/)
 
--   More examples
+-   [More examples](https://shiny.posit.co/r/gallery/)
