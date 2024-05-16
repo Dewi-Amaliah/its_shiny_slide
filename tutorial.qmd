@@ -9,20 +9,21 @@ editor: visual
 
 1.  Having R and R studio installed. If you haven't already, you can see the installation guide [here](https://posit.co/download/rstudio-desktop/).
 
-2.  Having these packages installed: `tidyverse`, `shiny`, `shinythemes`, `caret`, `DT`, `rmarkdown`, `officer`, `rpart`, `ggally`, `plotly`, and `randomForest`. You can install these packages by running this code:
+2.  Having these packages installed: `tidyverse`, `shiny`, `shinythemes`, `rmarkdown`, and `officer`. You can install these packages by running this code:
 
 ```{r, eval = FALSE, echo = TRUE}
-    install.packages(c("tidyverse", "shiny", "shinythemes", "caret", "DT",
-                       "rmarkdown", "officer", "rpart", "ggally", "plotly",
-                       "randomForest"))
+    install.packages(c("tidyverse", "shiny", "shinythemes",
+                       "rmarkdown", "officer"))
 ```
-
-3.  Download case study data on Obesity Level Classification (UCI Machine Learning Repository, 2019) [here](https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition).
 
 ## Goal
 
-Create a Shiny app to do data exploration (visualization) and classification (several classification algorithm).
+Create a Shiny app to do health screening, i.e., BMI, blood sugar, blood pressure, and cardiovascular risk.
 
 ## Your Task
 
 Based on the lesson, think of the UI, server, and layout component of the app!
+
+## Steps
+
+1.  Create project:
