@@ -17,7 +17,7 @@ ui <- navbarPage(
     fluidRow(
       column(width = 3,
              textInput("patientName", "Patient Name:"),
-             numericInput("age", "Age:", value = NULL, min = 1, max = 150),
+             numericInput("age", "Age:", value = NULL, min = 1, max = 100),
              selectInput("sex", "Sex:", choices = c("Male", "Female")),
              numericInput("height", "Height (cm):", value = NULL, min = 50, max = 250, step = 0.1),
              numericInput("mass", "Mass (kg):", value = NULL, min = 1, max = 300, step = 0.1),
@@ -100,6 +100,7 @@ server <- function(input, output, session) {
                                           input$hdlChol,
                                           input$systolic,
                                           input$smoker)
+
 
       # Render the results
       output$t1 <- renderText("Body Mass Index (BMI) Status")

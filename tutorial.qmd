@@ -9,7 +9,9 @@ editor: visual
 
 1.  Having R and R studio installed. If you haven't already, you can see the installation guide [here](https://posit.co/download/rstudio-desktop/).
 
-2.  Having these packages installed: `tidyverse`, `shiny`, `shinythemes`, `rmarkdown`, and `officer`. You can install these packages by running this code:
+2.  Download the helper function [here](https://github.com/Dewi-Amaliah/its_shiny_slide/blob/main/app_demo/helper.R). It is a function to calculate 10-year cardiovascular risk based on Framingham Risk Score.
+
+3.  Having these packages installed: `tidyverse`, `shiny`, `shinythemes`, `rmarkdown`, and `officer`. You can install these packages by running this code:
 
 ```{r, eval = FALSE, echo = TRUE}
     install.packages(c("tidyverse", "shiny", "shinythemes",
@@ -26,4 +28,6 @@ Based on the lesson, think of the UI, server, and layout component of the app!
 
 ## Steps
 
-1.  Create project:
+1.  Create project: Open R Studio -\> File -\> New Directory -\> Shiny Application
+2.  Start write the code for UI and Server
+3.  The code for the app is provided here,

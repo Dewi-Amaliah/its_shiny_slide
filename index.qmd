@@ -292,15 +292,13 @@ server <- function(input, output) {
 ::: callout-note
 ## Goal
 
-Create a Shiny app to do data exploration (visualization) and classification (several classification algorithm)
+Create a Shiny app to do health screening (BMI, hypertension, diabetes, and 10-year cardiovascular risk)
 :::
 
 ::: callout-note
 ## Data
 
-In this example, we will use data on obesity level (UCI Machine Learning Repository, 2019)
-
-Download [here](https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition)
+The data is from the patient based on several screening/ lab test.
 :::
 
 ::: callout-note
